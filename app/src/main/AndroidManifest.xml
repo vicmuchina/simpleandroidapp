@@ -10,8 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity android:name=".Constraintlayout"/>
-        <activity android:name=".Relativelayout" />
-        <activity android:name=".Linearlayout" />
+
+        <activity android:name=".Relativelayout"/>
+
+1        <activity android:name=".Linearlayout"/>
         <activity android:name=".MainActivity2" />
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -20,6 +22,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
