@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Chatliner</string>
+    <string name="myname">Victor Macharia is here for you</string>
+    <string name="heading">Chat while you can</string>
+    <string name="descriptionHeading2">Communicate
+        simply</string>
+    <string name="description2">
+        Texting is simple with Messages. Text anyone
+        from your phone or computer, at any time.
+        Up late? Dark mode has you covered with a
+        nighttime look that\'s easier on the eyes.
+    </string>
+
+    <string name="descriptionHeading">Boost your
+        conversations with
+        chat features</string>
+    <string name="description">
+        Share high-quality media without extra
+        fees, text on Wi-Fi, see when your friends
+        are typing and enjoy better group chats.*
+    </string>
+</resources>

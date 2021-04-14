@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Relativelayout">
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp"
+        android:layout_margin="30dp"
+        android:textColor="@color/black"
+        android:fontFamily="cursive"
+        />
+    <ImageView
+        android:id="@+id/text2"
+        android:layout_below="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/applogo"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/text3"
+        android:layout_below="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-black"
+        android:textSize="25sp"
+        android:text="@string/descriptionHeading2"
+        android:paddingHorizontal="40sp"
+        android:paddingVertical="10sp"
+        />
+    <TextView
+        android:id="@+id/textpara"
+        android:layout_below="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/description2"
+        android:paddingHorizontal="40sp"
+        android:paddingVertical="20sp"
+        />
+
+    <LinearLayout
+        android:id="@+id/linearInRelative"
+        android:layout_below="@+id/textpara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:text="About"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="30dp"
+            />
+        <Button
+            android:id="@+id/buttonconst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:text="COnstraint Layout"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="30dp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text9"
+        android:layout_below="@+id/linearInRelative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone:0797389366"
+        android:textSize="17sp"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:id="@+id/text10"
+        android:layout_toRightOf="@+id/text9"
+        android:layout_below="@+id/linearInRelative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="email:vicmuchina1234@gmail.com"
+        android:textSize="13sp"
+        android:layout_marginLeft="20dp"
+        />
+
+
+
+
+</RelativeLayout>
