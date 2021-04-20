@@ -15,7 +15,7 @@ class BottomNavigation : AppCompatActivity() , BottomNavigationView.OnNavigation
         setContentView(R.layout.activity_bottom_navigation)
 
         //view identification
-        bottomNav=findViewById(R.id.bottom_navigation)
+        bottomNav=findViewById(R.id.bottomView)
 
         //set a listener to it
         bottomNav.setOnNavigationItemSelectedListener(this)

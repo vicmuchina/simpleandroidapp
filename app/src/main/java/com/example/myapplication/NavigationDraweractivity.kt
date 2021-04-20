@@ -63,7 +63,7 @@ class NavigationDraweractivity : AppCompatActivity() , NavigationView.OnNavigati
                 startActivity(intent)
             }
             R.id.bottom_navigation -> {
-                val intent = Intent(this@NavigationDraweractivity, ConstraintLayout::class.java)
+                val intent = Intent(this@NavigationDraweractivity, BottomNavigation::class.java)
                 startActivity(intent)
             }
             R.id.random -> {
