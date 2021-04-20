@@ -12,7 +12,8 @@
         Up late? Dark mode has you covered with a
         nighttime look that\'s easier on the eyes.
     </string>
-
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
     <string name="descriptionHeading">Boost your
         conversations with
         chat features</string>

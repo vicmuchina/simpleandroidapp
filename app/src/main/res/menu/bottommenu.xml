@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/Relative"
+        android:title="Relative Layout"
+        android:icon="@drawable/ic_baseline_navigate_before_24"
+        />
+    <item android:id="@+id/Linear"
+        android:title="Linear Layout"
+        android:icon="@drawable/ic_baseline_qr_code_24"
+        />
+    <item android:id="@+id/constraint"
+        android:title="Constraint Layout"
+        android:icon="@drawable/ic_baseline_mobile_friendly_24"
+        />
+
+
+</menu>

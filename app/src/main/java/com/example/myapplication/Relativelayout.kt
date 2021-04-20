@@ -7,7 +7,7 @@ import android.widget.Button
 
 class Relativelayout : AppCompatActivity() {
     //initialize ur widget
-    lateinit var constraint:Button
+    private lateinit var constraint:Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

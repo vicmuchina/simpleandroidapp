@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Layouts">
+        <menu>
+            <item android:id="@+id/Relative"
+                 android:title="Relative Layout"
+                android:icon="@drawable/ic_baseline_add_comment_24"
+                />
+            <item android:id="@+id/Linear"
+                android:title="Linear Layout"
+                android:icon="@drawable/ic_baseline_attach_file_24"
+                />
+            <item android:id="@+id/constraint"
+                android:title="Constraint Layout"
+                android:icon="@drawable/ic_baseline_chat_24"
+                />
+
+
+        </menu>
+    </item>
+    <item android:id="@+id/bottom_navigation"
+        android:title="Bottom Navigation"
+        android:icon="@drawable/ic_baseline_low_priority_24"
+        />
+    <item android:id="@+id/random"
+        android:title="Random Link"
+        android:icon="@drawable/ic_baseline_camera_24"
+        />
+
+</menu>

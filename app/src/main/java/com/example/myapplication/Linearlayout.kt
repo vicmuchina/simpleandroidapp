@@ -7,9 +7,9 @@ import android.widget.Button
 import android.widget.Toast
 
 class Linearlayout : AppCompatActivity() {
-    lateinit var button1: Button
-    lateinit var button2: Button
-    lateinit var toaster: Button
+    private lateinit var button1: Button
+    private lateinit var button2: Button
+    private lateinit var toaster: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
