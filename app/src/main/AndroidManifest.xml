@@ -9,8 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".BottomNavigation"/>
-
+        <activity android:name=".FragmentSharing"></activity>
+        <activity android:name=".intentSharingB"></activity>
+        <activity android:name=".intentSharingA" />
+        <activity android:name=".BottomNavigation" />
         <activity android:name=".NavigationDraweractivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,13 +20,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Constraintlayout" />
         <activity android:name=".Relativelayout" />
         <activity android:name=".Linearlayout" />
         <activity android:name=".MainActivity2" />
-        <activity android:name=".MainActivity"/>
-
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

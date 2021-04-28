@@ -18,9 +18,30 @@
 
         </menu>
     </item>
+    <item android:title="Fragments">
+        <menu>
+            <item android:id="@+id/FragmentA"
+                android:title="FragmentA"
+                android:icon="@drawable/ic_baseline_airplay_24"
+                />
+            <item android:id="@+id/FragmentB"
+                android:title="FragmentB"
+                android:icon="@drawable/ic_baseline_apartment_24"
+                />
+
+        </menu>
+    </item>
+    <item android:id="@+id/intent"
+        android:title="Intent Sharing"
+        android:icon="@drawable/ic_baseline_navigate_before_24"
+        />
     <item android:id="@+id/bottom_navigation"
         android:title="Bottom Navigation"
         android:icon="@drawable/ic_baseline_low_priority_24"
+        />
+    <item android:id="@+id/fragment_sharing"
+        android:title="Fragment Sharing"
+        android:icon="@drawable/ic_baseline_alt_route_24"
         />
     <item android:id="@+id/random"
         android:title="Random Link"

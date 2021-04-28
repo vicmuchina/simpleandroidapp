@@ -37,12 +37,18 @@ class NavigationDraweractivity : AppCompatActivity() , NavigationView.OnNavigati
         val toggle:ActionBarDrawerToggle
         toggle=ActionBarDrawerToggle(this,drawer,toolbar,R.string.navigation_drawer_open,R.string.navigation_drawer_close)
 
-        //attach a drawer a listener for the toggle effect
+        //attach to the drawer a listener for the toggle effect
         drawer.addDrawerListener(toggle)
 
         //sync state
         toggle.syncState()
 
+        //check if fragment is null
+        if(savedInstanceState == null){
+            //this line attaches a fragment to the view
+            supportFragmentManager.beginTransaction().replace(R.id.fragmentcontainer,FragmentA()).commit()
+            navView.setCheckedItem(R.id.FragmentA)
+        }
 
 
 
@@ -70,6 +76,23 @@ class NavigationDraweractivity : AppCompatActivity() , NavigationView.OnNavigati
                 //this is how you do a toast
                 Toast.makeText(this, " The navigation Drawer works", Toast.LENGTH_LONG).show()
 
+            }
+            //intent sharing activity
+            R.id.intent -> {
+                val intent = Intent(this@NavigationDraweractivity, intentSharingA::class.java)
+                startActivity(intent)
+            }
+            //fragment sharing activity
+            R.id.fragment_sharing -> {
+                val intent = Intent(this@NavigationDraweractivity, FragmentSharing::class.java)
+                startActivity(intent)
+            }
+
+            R.id.FragmentA->{
+                supportFragmentManager.beginTransaction().replace(R.id.fragmentcontainer,FragmentA()).commit()
+            }
+            R.id.FragmentB->{
+                supportFragmentManager.beginTransaction().replace(R.id.fragmentcontainer,FragmentB()).commit()
             }
         }
         return true

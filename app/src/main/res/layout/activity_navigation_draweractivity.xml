@@ -28,8 +28,13 @@
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
 
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/fragmentcontainer"/>
 
-        <include layout="@layout/linearlayout" />
+
+<!--        <include layout="@layout/linearlayout" />-->
 
     </LinearLayout>
 
