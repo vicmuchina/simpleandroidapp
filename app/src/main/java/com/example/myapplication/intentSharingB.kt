@@ -15,7 +15,7 @@ class intentSharingB : AppCompatActivity() {
         val bundle: Bundle? =intent.extras
         val imagePicked:Int=bundle!!.getInt("image")
 
-        Log.d("sharedData","image name ${imagePicked.toString()}")
+        Log.d("sharedData","image name $imagePicked")
 
         //set the image to the image view
         disneyplane.setImageResource(imagePicked)

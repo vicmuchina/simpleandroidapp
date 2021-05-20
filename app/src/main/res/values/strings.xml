@@ -12,11 +12,15 @@
         Up late? Dark mode has you covered with a
         nighttime look that\'s easier on the eyes.
     </string>
+
     <string name="navigation_drawer_open">open</string>
+
     <string name="navigation_drawer_close">close</string>
+
     <string name="descriptionHeading">Boost your
         conversations with
         chat features</string>
+
     <string name="description">
         Share high-quality media without extra
         fees, text on Wi-Fi, see when your friends
@@ -24,5 +28,15 @@
     </string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
     <string name="digit">111</string>
+
+    <string-array name="technology_list">
+        <item>Email at vicmuchina1234@gmail.com</item>
+        <item>Call: 0797389366</item>
+        <item>Website: www.youtube.com/results?search_query=donut+media</item>
+        <item>Github: https://github.com/</item>
+        <item>Custom list View</item>
+
+    </string-array>
 </resources>

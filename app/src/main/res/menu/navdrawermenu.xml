@@ -43,6 +43,11 @@
         android:title="Fragment Sharing"
         android:icon="@drawable/ic_baseline_alt_route_24"
         />
+    <item android:id="@+id/listing"
+        android:title="List View"
+        android:icon="@drawable/ic_baseline_ac_unit_24"
+        />
+
     <item android:id="@+id/random"
         android:title="Random Link"
         android:icon="@drawable/ic_baseline_camera_24"

@@ -45,7 +45,7 @@ class intentSharingA : AppCompatActivity() {
             //fetch the text from Edit Text
             text2=edit.text.toString()
 
-            //login info
+            //log info
             Log.d("sharedata","text from textView ${text1}, text from editView${text2}")
 
             val intentSharingB=Intent(this@intentSharingA,intentSharingB::class.java)

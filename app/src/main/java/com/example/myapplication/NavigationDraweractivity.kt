@@ -87,6 +87,11 @@ class NavigationDraweractivity : AppCompatActivity() , NavigationView.OnNavigati
                 val intent = Intent(this@NavigationDraweractivity, FragmentSharing::class.java)
                 startActivity(intent)
             }
+            //list view activity
+            R.id.listing -> {
+                val intent = Intent(this@NavigationDraweractivity, ListView::class.java)
+                startActivity(intent)
+            }
 
             R.id.FragmentA->{
                 supportFragmentManager.beginTransaction().replace(R.id.fragmentcontainer,FragmentA()).commit()
