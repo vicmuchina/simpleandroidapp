@@ -53,4 +53,27 @@
         android:icon="@drawable/ic_baseline_camera_24"
         />
 
+    <item android:title="Widgets">
+        <menu>
+            <item android:id="@+id/autoCompleteText"
+                android:title="Auto Complete"
+                android:icon="@drawable/ic_baseline_arrow_right_alt_24"
+                />
+            <item android:id="@+id/horizontalScroll"
+                android:title="Horizontal Scroll`"
+                android:icon="@drawable/ic_baseline_arrow_right_alt_24"
+                />
+            <item android:id="@+id/radiobutton"
+                android:title="Radio Buttons`"
+                android:icon="@drawable/ic_baseline_arrow_right_alt_24"
+                />
+            <item android:id="@+id/tableLayout"
+                android:title="Table Layout`"
+                android:icon="@drawable/ic_baseline_arrow_right_alt_24"
+                />
+
+        </menu>
+
+    </item>
+
 </menu>

@@ -35,6 +35,7 @@ class NavigationDraweractivity : AppCompatActivity() , NavigationView.OnNavigati
 
         //new instance of the ActionBarToggle class so that we can get the Hamburger icon
         val toggle:ActionBarDrawerToggle
+
         toggle=ActionBarDrawerToggle(this,drawer,toolbar,R.string.navigation_drawer_open,R.string.navigation_drawer_close)
 
         //attach to the drawer a listener for the toggle effect
@@ -90,6 +91,22 @@ class NavigationDraweractivity : AppCompatActivity() , NavigationView.OnNavigati
             //list view activity
             R.id.listing -> {
                 val intent = Intent(this@NavigationDraweractivity, ListView::class.java)
+                startActivity(intent)
+            }
+            R.id.autoCompleteText -> {
+                val intent = Intent(this@NavigationDraweractivity, AutoCompleteTextView::class.java)
+                startActivity(intent)
+            }
+            R.id.horizontalScroll -> {
+                val intent = Intent(this@NavigationDraweractivity, HorizontolScrollView::class.java)
+                startActivity(intent)
+            }
+            R.id.radiobutton -> {
+                val intent = Intent(this@NavigationDraweractivity, RadioButton::class.java)
+                startActivity(intent)
+            }
+            R.id.tableLayout -> {
+                val intent = Intent(this@NavigationDraweractivity, TableLayout::class.java)
                 startActivity(intent)
             }
 

@@ -30,6 +30,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <string name="digit">111</string>
+    <string name="submitted_lang">"your favourite is "</string>
 
     <string-array name="technology_list">
         <item>Email at vicmuchina1234@gmail.com</item>
@@ -39,4 +40,17 @@
         <item>Custom list View</item>
 
     </string-array>
+
+    <string-array name="Languages">
+        <item>Java</item>
+        <item>C#</item>
+        <item>Kotlin</item>
+        <item>Swift</item>
+        <item>Python</item>
+        <item>Scala</item>
+        <item>Perl</item>
+        <item>Javascript</item>
+        <item>Jquery</item>
+    </string-array>
+
 </resources>
