@@ -93,6 +93,10 @@ class NavigationDraweractivity : AppCompatActivity() , NavigationView.OnNavigati
                 val intent = Intent(this@NavigationDraweractivity, ListView::class.java)
                 startActivity(intent)
             }
+            R.id.recyclerViewer -> {
+                val intent = Intent(this@NavigationDraweractivity, RecyclerView::class.java)
+                startActivity(intent)
+            }
             R.id.autoCompleteText -> {
                 val intent = Intent(this@NavigationDraweractivity, AutoCompleteTextView::class.java)
                 startActivity(intent)
