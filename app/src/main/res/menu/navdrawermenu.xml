@@ -75,6 +75,26 @@
                 android:title="Table Layout`"
                 android:icon="@drawable/ic_baseline_arrow_right_alt_24"
                 />
+            <item android:id="@+id/progress_bar"
+                android:title="Progress Bar`"
+                android:icon="@drawable/ic_baseline_arrow_right_alt_24"
+                />
+            <item android:id="@+id/ratingBar"
+                android:title="Rating Bar"
+                android:icon="@drawable/ic_baseline_arrow_right_alt_24"
+                />
+            <item android:id="@+id/seek_bar"
+                android:title="Seek Bar"
+                android:icon="@drawable/ic_baseline_arrow_right_alt_24"
+                />
+            <item android:id="@+id/spinner"
+                android:title="Spinner"
+                android:icon="@drawable/ic_baseline_arrow_right_alt_24"
+                />
+            <item android:id="@+id/dynamic_spinner"
+                android:title="Dynamic Spinner"
+                android:icon="@drawable/ic_baseline_arrow_right_alt_24"
+                />
 
         </menu>
 

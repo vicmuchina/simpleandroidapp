@@ -26,11 +26,11 @@
         fees, text on Wi-Fi, see when your friends
         are typing and enjoy better group chats.*
     </string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <string name="digit">111</string>
     <string name="submitted_lang">"your favourite is "</string>
+    <string name="selected_item">Selected item</string>
 
     <string-array name="technology_list">
         <item>Email at vicmuchina1234@gmail.com</item>
@@ -51,6 +51,8 @@
         <item>Perl</item>
         <item>Javascript</item>
         <item>Jquery</item>
+        <item>Rust</item>
+        <item>Go</item>
     </string-array>
 
 </resources>

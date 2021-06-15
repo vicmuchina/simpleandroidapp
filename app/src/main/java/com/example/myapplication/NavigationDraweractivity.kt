@@ -113,6 +113,27 @@ class NavigationDraweractivity : AppCompatActivity() , NavigationView.OnNavigati
                 val intent = Intent(this@NavigationDraweractivity, TableLayout::class.java)
                 startActivity(intent)
             }
+            R.id.progress_bar -> {
+                val intent = Intent(this@NavigationDraweractivity, ProgressBar::class.java)
+                startActivity(intent)
+            }
+            R.id.ratingBar -> {
+                val intent = Intent(this@NavigationDraweractivity, RatingBar::class.java)
+                startActivity(intent)
+            }
+            R.id.seek_bar -> {
+                val intent = Intent(this@NavigationDraweractivity, SeekBar::class.java)
+                startActivity(intent)
+            }
+            R.id.spinner -> {
+                val intent = Intent(this@NavigationDraweractivity, Spinner::class.java)
+                startActivity(intent)
+            }
+            R.id.dynamic_spinner -> {
+                val intent = Intent(this@NavigationDraweractivity, DynamicSpinner::class.java)
+                startActivity(intent)
+            }
+
 
             R.id.FragmentA->{
                 supportFragmentManager.beginTransaction().replace(R.id.fragmentcontainer,FragmentA()).commit()
