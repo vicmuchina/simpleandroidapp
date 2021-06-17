@@ -33,7 +33,7 @@ class CustomListView : AppCompatActivity() {
                     val url = "https://www.youtube.com/watch?v=qleJpzB4q7A"
                     val intent = Intent(Intent.ACTION_VIEW)
                     intent.data = Uri.parse(url)
-
+                    startActivity(intent)
                 }
                 1 -> {
                     //intent for web

@@ -88,6 +88,12 @@ class NavigationDraweractivity : AppCompatActivity() , NavigationView.OnNavigati
                 val intent = Intent(this@NavigationDraweractivity, FragmentSharing::class.java)
                 startActivity(intent)
             }
+            //fragment sharing activity
+            R.id.frag_view_model -> {
+                val intent = Intent(this@NavigationDraweractivity, FragmentSharingViewModel::class.java)
+                startActivity(intent)
+            }
+
             //list view activity
             R.id.listing -> {
                 val intent = Intent(this@NavigationDraweractivity, ListView::class.java)

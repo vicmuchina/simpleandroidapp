@@ -31,6 +31,11 @@
 
         </menu>
     </item>
+    <item android:id="@+id/frag_view_model"
+        android:title="FragVM"
+        android:icon="@drawable/ic_baseline_arrow_circle_up_24">
+
+    </item>
     <item android:id="@+id/intent"
         android:title="Intent Sharing"
         android:icon="@drawable/ic_baseline_navigate_before_24"
