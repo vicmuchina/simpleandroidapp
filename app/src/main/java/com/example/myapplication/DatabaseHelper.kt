@@ -89,13 +89,13 @@ class DatabaseHelper(context: Context) : SQLiteOpenHelper(context,
         var UserEmail: String
 
         //using cursor to pick records
-        if (cursor != null && cursor.moveToFirst()){
-            cursor.moveToFirst()
+        if (cursor.moveToFirst()){
+
             //create a loop for fetching process
             do{
 
                 userId = cursor.getInt(cursor.getColumnIndex("id"))
-                UserName = cursor.getString(cursor.getColumnIndex("Name"))
+                UserName = cursor.getString(cursor.getColumnIndex("name"))
                 UserEmail = cursor.getString(cursor.getColumnIndex("email"))
 
                 //taking the data to the model class
@@ -111,5 +111,43 @@ class DatabaseHelper(context: Context) : SQLiteOpenHelper(context,
 
     }
 
+    //update method
+    fun update(sqlLiteModel: SqlLiteModel) : Int{
+
+        //process for sqlLite database
+        val db = this.writableDatabase
+
+        //content values
+        val contentValues = ContentValues()
+        //put details inside the respective columns
+        contentValues.put(KEY_ID,sqlLiteModel.userId)
+        contentValues.put(KEY_NAME,sqlLiteModel.userName)
+        contentValues.put(KEY_EMAIL,sqlLiteModel.userEmail)
+
+        val success = db.update(TABLE_USERS,contentValues,"id=" + sqlLiteModel.userId, null)
+
+        //close the connection
+        db.close()
+
+        //return the id
+        return success
+
+    }
+
+    fun deleteData(sqlLiteModel: SqlLiteModel) : Int{
+        //process for sqlLite
+        val db = this.writableDatabase
+        //content values
+        val contentValues = ContentValues()
+
+        contentValues.put(KEY_ID,sqlLiteModel.userId)
+
+        //delete process
+        val success = db.delete(TABLE_USERS,"id=" + sqlLiteModel.userId, null)
+
+        db.close()
+        return success
+
+    }
 
 }
