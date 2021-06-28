@@ -50,7 +50,7 @@ class SqlLite : AppCompatActivity() {
     }
 
     fun viewData(view: View){
-        //define instance of the database helper clas
+        //define instance of the database helper class
         val databaseHelper = DatabaseHelper(this)
         //make ref to the read data method
         val viewData: List<SqlLiteModel> = databaseHelper.readData()
