@@ -93,6 +93,11 @@ class NavigationDraweractivity : AppCompatActivity() , NavigationView.OnNavigati
                 val intent = Intent(this@NavigationDraweractivity, FragmentSharingViewModel::class.java)
                 startActivity(intent)
             }
+            //shared preferences
+            R.id.sharedPreferences -> {
+                val intent = Intent(this@NavigationDraweractivity, SharedPreferences::class.java)
+                startActivity(intent)
+            }
             //sqlLite
             R.id.sqlLite -> {
                 val intent = Intent(this@NavigationDraweractivity, SqlLite::class.java)

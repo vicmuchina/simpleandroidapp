@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".SqlLite"></activity>
+        <activity android:name=".SharedPreferences"></activity>
+        <activity android:name=".SqlLite" />
         <activity android:name=".FragmentSharingViewModel" />
         <activity android:name=".DynamicSpinner" />
         <activity android:name=".Spinner" />

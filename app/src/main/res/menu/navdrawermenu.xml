@@ -41,6 +41,11 @@
         android:icon="@drawable/ic_baseline_architecture_24">
 
     </item>
+    <item android:id="@+id/sharedPreferences"
+        android:title="Shared Preferences"
+        android:icon="@drawable/ic_baseline_architecture_24">
+
+    </item>
     <item android:id="@+id/intent"
         android:title="Intent Sharing"
         android:icon="@drawable/ic_baseline_navigate_before_24"
