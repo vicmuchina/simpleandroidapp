@@ -36,13 +36,17 @@
         android:icon="@drawable/ic_baseline_arrow_circle_up_24">
 
     </item>
+    <item android:id="@+id/android_networking"
+        android:title="Volley"
+        android:icon="@drawable/ic_baseline_camera_24"
+        />
     <item android:id="@+id/sqlLite"
         android:title="Sql Lite"
         android:icon="@drawable/ic_baseline_architecture_24">
 
     </item>
     <item android:id="@+id/sharedPreferences"
-        android:title="Shared Preferences"
+        android:title="Preferences"
         android:icon="@drawable/ic_baseline_architecture_24">
 
     </item>
