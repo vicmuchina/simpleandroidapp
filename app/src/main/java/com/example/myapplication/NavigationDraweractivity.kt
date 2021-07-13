@@ -78,6 +78,11 @@ class NavigationDraweractivity : AppCompatActivity() , NavigationView.OnNavigati
                 Toast.makeText(this, " The navigation Drawer works", Toast.LENGTH_LONG).show()
 
             }
+            R.id.location -> {
+                //location
+                val intent = Intent(this@NavigationDraweractivity, Location::class.java)
+                startActivity(intent)
+            }
             //intent sharing activity
             R.id.intent -> {
                 val intent = Intent(this@NavigationDraweractivity, intentSharingA::class.java)
@@ -96,6 +101,11 @@ class NavigationDraweractivity : AppCompatActivity() , NavigationView.OnNavigati
             //shared preferences
             R.id.sharedPreferences -> {
                 val intent = Intent(this@NavigationDraweractivity, SharedPreferences::class.java)
+                startActivity(intent)
+            }
+            //Post update delete
+            R.id.post_update_delete -> {
+                val intent = Intent(this@NavigationDraweractivity, PostUpdateDelete::class.java)
                 startActivity(intent)
             }
             //sqlLite
