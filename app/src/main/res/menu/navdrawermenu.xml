@@ -44,6 +44,10 @@
         android:title="Location"
         android:icon="@drawable/ic_baseline_low_priority_24"
         />
+    <item android:id="@+id/maps"
+        android:title="Maps"
+        android:icon="@drawable/ic_baseline_low_priority_24"
+        />
     <item android:id="@+id/sqlLite"
         android:title="Sql Lite"
         android:icon="@drawable/ic_baseline_architecture_24">

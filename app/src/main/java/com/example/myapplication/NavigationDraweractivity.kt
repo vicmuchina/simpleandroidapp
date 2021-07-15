@@ -78,9 +78,16 @@ class NavigationDraweractivity : AppCompatActivity() , NavigationView.OnNavigati
                 Toast.makeText(this, " The navigation Drawer works", Toast.LENGTH_LONG).show()
 
             }
+            //getting users location
             R.id.location -> {
                 //location
                 val intent = Intent(this@NavigationDraweractivity, Location::class.java)
+                startActivity(intent)
+            }
+            //maps
+            R.id.maps -> {
+                //location
+                val intent = Intent(this@NavigationDraweractivity, MapsActivity::class.java)
                 startActivity(intent)
             }
             //intent sharing activity

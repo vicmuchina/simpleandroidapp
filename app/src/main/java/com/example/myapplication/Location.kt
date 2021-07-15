@@ -175,11 +175,11 @@ class Location : AppCompatActivity() {
         var geoCoder = Geocoder(this, Locale.getDefault())
 
         //full address
-        var address = geoCoder.getFromLocation(latitude,longitude,5)
+        var address = geoCoder.getFromLocation(latitude,longitude,10)
 
         cityName = address.get(0).locality
         countryName = address.get(0).countryName
-        fullAddress = address.get(0).getAddressLine(0)
+        fullAddress = address?.get(0)?.getAddressLine(0)!!
 
         Toast.makeText(applicationContext,"Full adress" + fullAddress,Toast.LENGTH_LONG).show()
 
